@@ -3,21 +3,31 @@
   <head>
     <meta charset="utf-8">
     <title>Local Weather App</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   </head>
   <body>
-    <div class="text-center">
-      <h1>Show the Local Weather</h1>
-      <h3>Front End Developer Project</h3>
-      <ul class="list-unstyled">
-        <li class="btn btn-default" id="city"></li>
-        <li class="btn btn-default" id="weatherType"></li>
-        <li class="btn btn-default" id="fTemp"></li>
-        <li class="btn btn-default" id="windSpeed"></li>
-      </ul>
-    </div>
-    <script type="text/javascript" src="script.js"></script>
+    <div class="container">
+      <header class="text-center">
+        <h1>Show the Local Weather</h1>
+        <h3>Front End Developer Project</h3>
+      </header>
+
+      <main>
+        <ul class="list-unstyled">
+          <li class="btn btn-default" id="city"></li>
+          <li class="btn btn-default" id="weatherType"></li>
+          <li class="btn btn-default" id="fTemp"></li>
+          <li class="btn btn-default" id="windSpeed"></li>
+        </ul>
+      </main>
+
+      <footer>
+        <p>&copy; 2016-2019 Sarah Bartley. All Rights Reserved</p>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="assets/js/script.js"></script>
   </body>
 </html>
