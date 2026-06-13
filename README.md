@@ -1,11 +1,15 @@
-# Show Local Weather
-Show Local Weather project from Free Code Camp Intermediate Projects. Made with HTML, CSS, and JavaScript.
+# JavaScript Weather App
+Show Local Weather project from freecodecamp intermediate projects. This is now a legacy freecodecamp project. 
+
+## Tech Stack
+- HTML
+- CSS
+- JavaScript
+- jQuery
 
 ## Instructions
-Clone or download zip file. Open index.html file in your browser.
-
-## Contributing
-This repository is the starter code featured in Dylan Israel's YouTube videos. Therefore, we most likely will not accept pull requests.
+1. Clone or download zip file. 
+2. Open index.html file in your browser.
 
 ## Acknowledgements
 * Dylan Israel
